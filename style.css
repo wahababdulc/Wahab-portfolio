@@ -1,10 +1,17 @@
  body {
+    margin: 0px;
         font-family: 'Poppins', sans-serif;
     }
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2 {
+    font-size: 38px;
+}
+h3 {
+    font-size: 28px;
+}
+.orange-highlight{
  color: orange;
 }
 .sub-Div {
@@ -16,7 +23,72 @@ h1{
 
 }
 .sub-Div img {
-    width: 85%;
-    height: auto;
+    width: 100%;
     float: right;
+}
+.top-banner{
+    /*border: 1px solid rgb(25, 49, 158);*/
+    background-image: url("MyPic/top-banner.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+/*.Link-button{
+    text-decoration: none;
+    background-color: rgb(203, 158, 246);
+    background-image: linear-gradient(rgb(193, 255, 122), rgb(246, 122, 229));
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: rgb(0, 3, 5);
+    font-weight: 700;
+    font-style: inherit;
+}*/
+
+.Link-button {
+    text-decoration: none;
+    background-color: rgb(203, 158, 246);
+    background-image: linear-gradient(rgb(193, 255, 122), rgb(246, 122, 229));
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: rgb(0, 3, 5);
+    font-weight: 700;
+    font-style: inherit;
+    transition: background-color 0.2s ease-in-out, background-image 0.2s ease-in-out; /* Smooth transition for background */
+}
+
+.Link-button:hover {
+    background-color: rgb(138, 237, 138); /* Optionally change to a flat color */
+    background-image: linear-gradient(rgb(31, 192, 31), rgb(207, 8, 218)); /* Brighten the gradient on hover */
+}
+.Dream-area{
+    background-image: url(MyPic/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.Experience-area{
+    background-image: url(MyPic/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Full-Stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(103, 233, 103), rgb(207, 8, 218));
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(103, 133, 233), rgb(207, 233, 10));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
